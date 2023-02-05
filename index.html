@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head element -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Assignment-2 (Himanshu Setia)</title>
+
+  <!-- Linked bootstrap using CDN link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    type="text/css" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous">
+
+  <!-- External CSS file "mystyle.css" linked -->
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<!-- Body -->
+<body>
+
+  <!-- Navigation bar -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid mx-4 justify-content-around">
+        <a class="navbar-brand" href="https://www.geminisolutions.com/">
+          <img src="./images/geminiSolutionsLogo.jpg" alt="Gemini Solutions Logo" width="250" height="30"
+            class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="nav my-1">
+            <a class="nav-link" href="https://www.geminisolutions.com/solutions/">Pricing</a>
+            <a class="nav-link" href="https://www.geminisolutions.com/people/">Community</a>
+            <a class="nav-link" href="https://www.geminisolutions.com/contact/">Support</a>
+          </div>
+        </div>
+        <span class="nav justify-content-around">
+          <a href="#" class="btn btn-outline-primary px-5 mx-2 my-1">Log in</a>
+          <a href="#" class="btn btn-primary px-5 mx-2 my-1">Register</a>
+        </span>
+      </div>
+    </nav>
+  </header>
+  <!-- End Navigation bar -->
+
+  <!-- Main -->
+  <main>
+
+    <!-- Section-1: Carousel Video layout -->
+    <section>
+      <!-- Carousel wrapper -->
+      <div id="carouselVideo" class="carousel pb-3" data-mdb-ride="carousel">
+        <!-- Inner -->
+        <div class="carousel-inner">
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <video class="img-fluid w-100" loop controls>
+              <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" />
+            </video>
+            <div class="carousel-caption d-none d-md-block m-3 p-3">
+              <h1 class="display-6">
+                The largest community of photo enthusiasts
+              </h1>
+              <a type="button" class="btn btn-primary px-5"
+                href="https://www.geminisolutions.com/people/life-gemini/">Join Today</a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- End Section-1 -->
+
+    <!-- Section-2 -->
+    <section>
+
+      <!-- Article-1: Cards layout -->
+      <article class="container-fluid py-4">
+        <div class="row">
+          <header class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 px-3">
+            <h1 class="display-6 px-5">Snap photos and share like never before</h1>
+          </header>
+        </div>
+
+        <div class="row">
+          <!-- card1 -->
+          <article class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 px-5 my-2">
+            <div class="card w-100 border-0">
+              <div class="card-body">
+                <h5 class="card-title my-3"><strong>Sed ut perspiciatis</strong></h5>
+                <p class="card-text my-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                  sed
+                  quia
+                  consequuntur dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+                <a href="https://www.geminisolutions.com/solutions/services/" class="btn btn-outline-primary my-2">Learn
+                  more</a>
+              </div>
+            </div>
+          </article>
+          <!-- card2 -->
+          <article class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 px-5 my-2">
+            <div class="card w-100 border-0">
+              <div class="card-body">
+                <h5 class="card-title my-3"><strong>Lorem ipsum dolor</strong></h5>
+                <p class="card-text my-3">Amet consectetur adipiscing elit, sed do eiusmod tenpor incididunt ut labore
+                  et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                <a href="https://www.geminisolutions.com/solutions/technologies/"
+                  class="btn btn-outline-primary my-2">Learn more</a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="row">
+          <!-- card3 -->
+          <article class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 px-5 my-2">
+            <div class="card w-100 border-0">
+              <div class="card-body">
+                <h5 class="card-title my-3"><strong>Nemo enim ipsam</strong></h5>
+                <p class="card-text my-3">Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                  porro
+                  quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quianon numquam.
+                </p>
+                <a href="https://www.geminisolutions.com/solutions/products/" class="btn btn-outline-primary my-2">Learn
+                  more</a>
+              </div>
+            </div>
+          </article>
+          <!-- card4 -->
+          <article class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 px-5 my-2">
+            <div class="card w-100 border-0">
+              <div class="card-body">
+                <h5 class="card-title my-3"><strong>Tempor incididunt</strong></h5>
+                <p class="card-text my-3">Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                  doloreum
+                  ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.</p>
+                <a href="https://www.geminisolutions.com/people/case-studies/"
+                  class="btn btn-outline-primary my-2">Learn more</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </article>
+      <!-- End Article-1 -->
+
+      <!-- Article-2: Subscribe Form -->
+      <article class="container-fluid py-4">
+
+        <figure class="text-center mt-5">
+          <header>
+            <h1 class="display-6 py-3">Ready to take a free trial?</h1>
+          </header>
+          <blockquote class="blockquote">
+            <p class="fs-3 w-75 px-3 m-auto text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore</p>
+          </blockquote>
+        </figure>
+
+        <h1 class="display-6 text-center py-3">Subscribe for free</h1>
+
+        <!-- Form -->
+        <form action="#" class="row mx-5 p-3 border" id="subscribeForm">
+          <!-- First name -->
+          <div class="col-md-4 p-3">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Placeholder" required>
+          </div>
+          <!-- Middle name -->
+          <div class="col-md-4 p-3">
+            <label for="middleName" class="form-label">Middle Name</label>
+            <input type="text" class="form-control" id="middleName" name="middleName" placeholder="Placeholder"
+              required>
+          </div>
+          <!-- Last name -->
+          <div class="col-md-4 p-3">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Placeholder" required>
+          </div>
+          <!-- Gender -->
+          <div class="col-md-4 p-3">
+            <label for="gender" class="form-label">Gender</label>
+            <select class="form-select" id="gender" name="gender" aria-label="Default select example" required>
+              <option value="">Select</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <!-- Age -->
+          <div class="col-md-4 p-3">
+            <label for="age" class="form-label">Age</label>
+            <input type="number" class="form-control" id="age" name="age" min="0" placeholder="Placeholder" required>
+          </div>
+          <!-- Contact number -->
+          <div class="col-md-4 p-3">
+            <label for="contactNumber" class="form-label">Contact Number</label>
+            <input type="tel" class="form-control" id="contactNumber" name="contactNumber" placeholder="Placeholder"
+              pattern="[1-9]{1}[0-9]{9}" required>
+          </div>
+          <!-- Address -->
+          <div class="col-12 p-3">
+            <label for="address" class="form-label">Address</label>
+            <textarea class="form-control" id="address" name="address" rows="5"
+              placeholder="Write your message here"></textarea>
+          </div>
+          <!-- Submit button -->
+          <div class="col-12 align-items-center text-center p-3">
+            <button class="btn btn-outline-primary" type="submit" form="subscribeForm" value="Submit">Submit</button>
+          </div>
+        </form>
+        <!-- End Form -->
+
+      </article>
+      <!-- End Article-2 -->
+
+      <!-- grey block acting as separation line -->
+      <div class="separationLine my-5 py-4"></div>
+
+      <!-- Article-3: Card with image and navbar -->
+      <article class="container-fluid py-4">
+        <div class="card m-5 border-0">
+          <div class="row g-0">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 py-3">
+              <img src="images/chironTransitingSun.jpeg" class="img-fluid" alt="Chiron Transiting Sun">
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <div class="card-body ms-2">
+                <h5 class="card-title">
+                  <nav>
+                    <div class="nav nav-tabs col-12 col-sm-12" id="nav-tab" role="tablist">
+                      <button class="nav-link border border-bottom-0 active" id="nav-home-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                        aria-selected="true">Home</button>
+                      <button class="nav-link border border-bottom-0" id="nav-profile-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                        aria-selected="false">Profile</button>
+                      <button class="nav-link border border-bottom-0" id="nav-contact-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                        aria-selected="false">Contact</button>
+                    </div>
+                  </nav>
+                </h5>
+                <p class="card-text ">
+                <div class="tab-content text-muted" id="nav-tabContent">
+                  <p class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                    tabindex="0">Raw denim you probably haven't heard of them jean shorts Austin. Nesclunt tofu
+                    stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williams burg carles vegan
+                    helvetica. Reprehenderit butcher retro keffityen dreamc atcher synth. Cosby sweater eu banh mi, qui
+                    irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan
+                    american apparel, butcher voluptate nisi qui</p>
+                  <p class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                    tabindex="0">Raw denim you probably haven't heard of them jean shorts Austin. Nesclunt tofu
+                    stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williams burg carles vegan
+                    helvetica. Reprehenderit butcher retro keffityen dreamc atcher synth. Cosby sweater eu banh mi, qui
+                    irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan
+                    american apparel, butcher voluptate nisi qui.</p>
+                  <p class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"
+                    tabindex="0">Raw denim you probably haven't heard of them jean shorts Austin. Nesclunt tofu
+                    stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williams burg carles vegan
+                    helvetica. Reprehenderit butcher retro keffityen dreamc atcher synth. Cosby sweater eu banh mi, qui
+                    irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan
+                    american apparel, butcher voluptate nisi qui.</p>
+                </div>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- End Article-3 -->
+
+      <!-- grey block acting as separation line -->
+      <div class="separationLine my-5 py-4"></div>
+
+      <!-- Article-4: Card having accordion and image -->
+      <article class="container-fluid py-4">
+        <div class="row card m-5 border-0">
+          <div class="row g-0">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <div class="card-body">
+                <!-- Accordion -->
+                <div class="accordion" id="accordionBessHamitiReflection">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <strong>Accordion Item #1</strong>
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                      data-bs-parent="#accordionBessHamitiReflection">
+                      <div class="accordion-body">
+                        This is the first item's accordion body. It is hidden by default, until the collapse plugin adds
+                        the appropriate classes that we use to style each element. These classes control the overall
+                        appearance, as well as the showing and hiding via CSS transitions.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <strong>Accordion Item #2</strong>
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionBessHamitiReflection">
+                      <div class="accordion-body">
+                        This is the second item's accordion body. It is hidden by default, until the collapse plugin
+                        adds
+                        the appropriate classes that we use to style each element. These classes control the overall
+                        appearance, as well as the showing and hiding via CSS transitions.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <strong>Accordion Item #3</strong>
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                      data-bs-parent="#accordionBessHamitiReflection">
+                      <div class="accordion-body">
+                        This is the third item's accordion body. It is hidden by default, until the collapse plugin adds
+                        the appropriate classes that we use to style each element. These classes control the overall
+                        appearance, as well as the showing and hiding via CSS transitions.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 py-3">
+              <img src="images/bessHamitiReflection.jpeg" class="img-fluid" alt="Bess Hamiti Reflection">
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- End Article-4 -->
+
+      <!-- grey block acting as separation line -->
+      <div class="separationLine my-5 py-4"></div>
+
+      <!-- Article-5: Blockquote and icon of bootstrap -->
+      <article class="container-fluid py-4">
+        <!-- Blockquote -->
+        <figure class="text-center m-5">
+          <blockquote class="blockquote">
+            <p class="fs-3 w-75 px-3 m-auto text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore</p>
+          </blockquote>
+          <!-- svg icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle"
+            viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+            <path
+              d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+          </svg>
+          <figcaption class="blockquote text-muted">
+            <small>Nemo enim ipsam</small>
+          </figcaption>
+        </figure>
+        <!-- End blockquote -->
+      </article>
+      <!-- End Article-5 -->
+
+      <!-- grey block acting as separation line -->
+      <div class="separationLine my-5 py-4"></div>
+
+      <!-- Article-6: List group and Badges -->
+      <article class="container-fluid py-4">
+        <header class="text-center py-2">
+          <h1 class="display-5">Your're in good company</h1>
+        </header>
+        <p class="fs-3 w-75 px-3 m-auto text-muted text-center">Loreum ipsum dolor sit amet, consectetur adipiscing
+          elit, sed do eiusmod tempor incididunt ut labore</p>
+
+        <!-- List group -->
+        <section class="row m-5">
+          <!-- List group-1 -->
+          <ul class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 list-group p-2">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Cras justo odio
+              <span class="badge badgeColor rounded-pill">12</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Dapibus ac facilisis in
+              <span class="badge badgeColor rounded-pill">54</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Morbi leo risus
+              <span class="badge badgeColor rounded-pill">5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Porta ac consectetur ac
+              <span class="badge badgeColor rounded-pill">123</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Vestibulum at eros
+              <span class="badge badgeColor rounded-pill">65</span>
+            </li>
+          </ul>
+          <!-- List group-2 -->
+          <ul class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 list-group p-2">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Cras justo odio
+              <span class="badge badgeColor rounded-pill">12</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Dapibus ac facilisis in
+              <span class="badge badgeColor rounded-pill">54</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Morbi leo risus
+              <span class="badge badgeColor rounded-pill">5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Porta ac consectetur ac
+              <span class="badge badgeColor rounded-pill">123</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Vestibulum at eros
+              <span class="badge badgeColor rounded-pill">65</span>
+            </li>
+          </ul>
+          <!-- List group-3 -->
+          <ul class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 list-group p-2">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Cras justo odio
+              <span class="badge badgeColor rounded-pill">12</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Dapibus ac facilisis in
+              <span class="badge badgeColor rounded-pill">54</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Morbi leo risus
+              <span class="badge badgeColor rounded-pill">5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Porta ac consectetur ac
+              <span class="badge badgeColor rounded-pill">123</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Vestibulum at eros
+              <span class="badge badgeColor rounded-pill">65</span>
+            </li>
+          </ul>
+          <!-- List group-4 -->
+          <ul class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 list-group p-2">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Cras justo odio
+              <span class="py-2 px-3 badgeColor rounded-pill"></span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Dapibus ac facilisis in
+              <span class="py-2 px-3 badgeColor rounded-pill"></span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Morbi leo risus
+              <span class="badge badgeColor rounded-pill">5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Porta ac consectetur ac
+              <span class="badge badgeColor rounded-pill">123</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Vestibulum at eros
+              <span class="py-2 px-3 badgeColor rounded-pill"></span>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <!-- End Article-6 -->
+
+    </section>
+    <!-- End Section-2 -->
+
+  </main>
+  <!-- End Main -->
+
+  <!-- Essential scripts added for bootstrap functionalites -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
